@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Map Boss (Boss bản đồ) · Yulgang Rebuild – Cẩm nang tiếng Việt</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <button class="menu-btn" aria-label="Mở menu" onclick="document.body.classList.toggle('nav-open')">☰</button>
+  <a class="brand" href="../index.html"><span class="logo">熱血</span><span>Yulgang Rebuild <small>Cẩm nang tiếng Việt</small></span></a>
+  <div class="search">
+    <input id="q" type="search" placeholder="Tìm kiếm… (vd: Đao Kiếm Tiếu, Phúc Vận Phù)" autocomplete="off">
+    <div id="results" class="results" hidden></div>
+  </div>
+</header>
+<div class="layout">
+  <nav class="sidebar"><ul>
+<li class=""><a href="../index.html">Giới thiệu</a></li>
+<li class=""><a href="../bang-thuat-ngu.html">Bảng thuật ngữ</a></li>
+</ul>
+<div class="nav-group">Rebuild: Thông tin</div>
+<ul>
+<li class=""><a href="../thong-tin/thong-tin-may-chu.html">Thông tin máy chủ</a></li>
+<li class=""><a href="../thong-tin/su-kien-loy-krathong.html">Sự kiện Loy Krathong</a></li>
+<li class=""><a href="../thong-tin/su-kien-halloween.html">Halloween Patch</a></li>
+</ul>
+<div class="nav-group">Rebuild: Hướng dẫn chơi</div>
+<ul>
+<li class=""><a href="../huong-dan-choi/ban-do.html">Bản đồ (vị trí)</a></li>
+<li class=""><a href="../huong-dan-choi/trang-bi/index.html">Equipment (Trang bị)</a></li>
+<li class="sub"><a href="../huong-dan-choi/trang-bi/dao-khach.html">Blade (Đao Khách)</a></li>
+<li class="sub"><a href="../huong-dan-choi/trang-bi/kiem-khach.html">Sword (Kiếm Khách)</a></li>
+<li class="sub"><a href="../huong-dan-choi/trang-bi/thuong-khach.html">Spear (Thương Khách)</a></li>
+<li class="sub"><a href="../huong-dan-choi/trang-bi/cung-thu.html">Archer (Cung Thủ)</a></li>
+<li class="sub"><a href="../huong-dan-choi/trang-bi/dai-phu.html">Healer (Đại Phu)</a></li>
+<li class=""><a href="../huong-dan-choi/khi-cong.html">Khí công theo nghề</a></li>
+<li class=""><a href="../huong-dan-choi/trang-suc.html">Accessories (Trang sức)</a></li>
+<li class=""><a href="../huong-dan-choi/cuong-hoa.html">Enchant (Cường hóa, hợp thành)</a></li>
+<li class=""><a href="../huong-dan-choi/thoi-trang.html">Fashion (Áo choàng thời trang)</a></li>
+<li class=""><a href="../huong-dan-choi/linh-thu.html">Pet (Linh thú)</a></li>
+<li class=""><a href="../huong-dan-choi/da.html">Stone (Đá)</a></li>
+<li class=""><a href="../huong-dan-choi/bang-hoi.html">Hệ thống Bang hội</a></li>
+<li class=""><a href="../huong-dan-choi/diem-thien.html">Aura (Điểm Thiện)</a></li>
+</ul>
+<div class="nav-group">Rebuild: Hệ thống Boss</div>
+<ul>
+<li class=""><a href="../boss/boss-the-gioi.html">World Boss (Boss thế giới)</a></li>
+<li class="active"><a href="../boss/boss-ban-do.html">Map Boss (Boss bản đồ)</a></li>
+<li class=""><a href="../boss/dao-chi.html">Item Boss (Đào Chi)</a></li>
+</ul>
+<div class="nav-group">Nhiệm vụ thăng chức</div>
+<ul>
+<li class=""><a href="../nhiem-vu-thang-chuc/cap-10-thang-chuc-lan-1.html">[10] Bước đầu chinh chiến</a></li>
+<li class=""><a href="../nhiem-vu-thang-chuc/cap-35-chinh-phai.html">[35] Gia nhập Chính phái</a></li>
+<li class=""><a href="../nhiem-vu-thang-chuc/cap-35-ta-phai.html">[35] Gia nhập Tà phái</a></li>
+<li class=""><a href="../nhiem-vu-thang-chuc/cap-60-chinh-phai.html">[60] Thăng chức lần 3 – Chính phái</a></li>
+<li class=""><a href="../nhiem-vu-thang-chuc/cap-60-ta-phai.html">[60] Thăng chức lần 3 – Tà phái</a></li>
+<li class=""><a href="../nhiem-vu-thang-chuc/cap-80-chinh-phai.html">[80] Thăng chức lần 4 – Chính phái</a></li>
+<li class=""><a href="../nhiem-vu-thang-chuc/cap-80-ta-phai.html">[80] Thăng chức lần 4 – Tà phái</a></li>
+<li class=""><a href="../nhiem-vu-thang-chuc/cap-100.html">[100] Thăng chức lần 5</a></li>
+</ul>
+<div class="nav-group">Rebuild: Rương báu</div>
+<ul>
+<li class=""><a href="../ruong-bau/event-box.html">Event Box</a></li>
+<li class=""><a href="../ruong-bau/ruong-bach-ngan.html">Rương Bạch Ngân</a></li>
+<li class=""><a href="../ruong-bau/ruong-da.html">Rương Đá</a></li>
+<li class=""><a href="../ruong-bau/ruong-ngoc.html">Rương Ngọc</a></li>
+<li class=""><a href="../ruong-bau/ruong-hoang-kim.html">Rương Hoàng Kim</a></li>
+<li class=""><a href="../ruong-bau/ruong-cham-khac.html">Rương Chạm Khắc</a></li>
+<li class=""><a href="../ruong-bau/ruong-bang.html">Rương Băng</a></li>
+<li class=""><a href="../ruong-bau/ruong-hac-am.html">Rương Hắc Ám</a></li>
+</ul>
+<div class="nav-group">Rebuild: Chiến tranh</div>
+<ul>
+<li class=""><a href="../chien-tranh/chinh-ta.html">Chiến tranh Chính – Tà</a></li>
+</ul>
+<div class="nav-group">Rebuild: Hỗ trợ</div>
+<ul>
+<li class=""><a href="../cach-choi/index.html">How to Play (Cách vào game)</a></li>
+<li class="sub"><a href="../cach-choi/ios-mac.html">iOS, Mac</a></li>
+<li class="sub"><a href="../cach-choi/android.html">Android</a></li>
+<li class="sub"><a href="../cach-choi/pc-browser.html">PC, Browser</a></li>
+<li class=""><a href="../cach-choi/bot.html">Bot System (Hộp Bot)</a></li>
+</ul></nav>
+  <div class="scrim" onclick="document.body.classList.remove('nav-open')"></div>
+  <main class="content">
+    <article><h1 id="map-boss-boss-bản-đồ">Map Boss (Boss bản đồ)</h1>
+<p>Boss hồi sinh 4 giờ sau khi bị tiêu diệt. Khi boss xuất hiện sẽ không có thông báo, người chơi phải tự canh boss.</p>
+<h3 id="bản-đồ-huyền-bột-phái">Bản đồ Huyền Bột Phái</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th><img loading="lazy" alt="" src="../assets/img/oJO30WrrVtkVkDMMGFDS_image.png"></th>
+<th style="text-align: center;"><p>Sơn Quỷ<br><mark style="color:var(--gb-success);"><strong>Huyền Bột Phái</strong></mark></p></th>
+<th><img loading="lazy" src="../assets/img/3OW6LsF8iOTxpCvZsBDs_image.png" alt="" data-size="original"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img loading="lazy" alt="" src="../assets/img/HG7FIV15FgYKzdppRwQe_image.png"></td>
+<td style="text-align: center;"><p>Sơn Tặc Đầu Lĩnh<br><mark style="color:var(--gb-success);"><strong>Huyền Bột Phái</strong></mark></p></td>
+<td><img loading="lazy" alt="" src="../assets/img/m98OcVn5gns0Kb8aZpDp_image.png"></td>
+</tr>
+</tbody>
+</table></div>
+<div class="table-wrap"><table><thead><tr><th width="173.99993896484375" align="center">Hình ảnh</th><th>Vật phẩm rơi</th></tr></thead><tbody><tr><td align="center"><img loading="lazy" src="../assets/img/P6GR8XLcZlN3DETSwqPN_1.png" alt="" data-size="original"></td><td>Ngân Nhĩ Hoàn</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/XxgHXlUPSrHaXpS7ZtSZ_2.png" alt=""></td><td>Bạch Ngọc Nhĩ Hoàn</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/y6k7zASGd1n3xbw6YeLZ_3.png" alt=""></td><td>Hoàng Kim Nhĩ Hoàn</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/Py6JfFrvkgxLjP7ndkPr_100002.png" alt=""></td><td>Huyễn Thân Liên</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/pVJYhjM9hZrXPhUCrNuN_100001.png" alt="" data-size="original"></td><td>Thần Thú Liên</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/dVsHLME5kJZSFS1Ze0gl_700001.png" alt="" data-size="original"></td><td>Ngân Giới Chỉ</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/uPlyjiG4vJOZ9RkhRo7B_700002.png" alt=""></td><td>Bạch Kim Giới Chỉ</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/pq5TUG0S646d9ar6uRcO_700003.png" alt=""></td><td>Tử Ngọc Giới Chỉ</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/DRZBL95zWMEQRJxsgpCR_100200010.png" alt=""></td><td>Song Nhận Đao</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/46uNR7XDwBE3zS2M7Jlc_200200010.png" alt=""></td><td>Xích Diễm Kiếm</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/dOBj48kG0r8r4O5RyOan_300200010.png" alt=""></td><td>Long Hà Thương</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/3flymc4nJB7OPyG23WkL_400200010.png" alt=""></td><td>Thiên Dực Cung</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/iV3NIp7ifZmRb7PTtkPn_500200010.png" alt=""></td><td>Huyết Trượng</td></tr><tr><td align="center">?????</td><td>Trang bị cấp 30: áo, hộ thủ, giày, giáp</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/rOC7wO4Z6T8hYQcRaZYJ_800000013.png" alt="" data-size="original"></td><td>Đá Yulgang</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/iTDzTJIuVbOrYxCOiYn0_800000001.png" alt="" data-size="original"></td><td>Kim Cương Thạch</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/SjEvcTkFi9Unxr4mHWii_800000002.png" alt="" data-size="original"></td><td>Hàn Ngọc Thạch</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/qGq9YIhSgOvxjmAc6KaU_800000006.png" alt=""></td><td>Đá Cường Hóa</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/ZHMHIePqCUoBNficzKfX_1008000023.png" alt=""></td><td>Kim Cương Phù</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/UrgI3hlcfunHHi7T3Hou_1008000024.png" alt=""></td><td>Hàn Ngọc Phù</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/8hRQLXdgd0iqYyeXR5uj_1008000025.png" alt=""></td><td>Bảo Hộ Phù</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/G2HzkiTa8isjhwvykyv3_1008000136.png" alt=""></td><td>Phúc Vận Phù 25%</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/dxzdIIANQGh8hhYIw2RD_1000000001.png" alt=""></td><td>Event Box</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/PkdWcvNg5SJUnHlvfX1p_1000000002.png" alt=""></td><td>Rương Bạch Ngân</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/Xxsuera6zYlMuXc0rrNo_1000000008.png" alt=""></td><td>Rương Ngọc</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/ee1pGZHxHNJ2AbYoIO6F_1000000026.png" alt=""></td><td>Rương Đá</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/FmCOSk04Mvtek4aKIXM0_1000000027.png" alt=""></td><td>Rương Thần Tiên</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/zeTGOfQ9jk9kjdS3NmR2_900102.png" alt=""></td><td>Áo choàng Bang hội cấp 4</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/M3aj5uckRzcksIqPVGpC_900103.png" alt=""></td><td>Áo choàng Bang hội cấp 5</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/UNQe2nf2VEfjmO3pklgN_900104.png" alt=""></td><td>Áo choàng Bang hội cấp 6</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/jzIpWLTX1x83v5dekaEQ_9000085.png" alt=""></td><td>Kinh nghiệm x1.2</td></tr><tr><td align="center"><div><figure><img loading="lazy" src="../assets/img/eYwGLg3KenIo5piv5IQQ_1000000290.png" alt=""><figcaption></figcaption></figure></div></td><td>Huy Hiệu Hiệp Khách</td></tr></tbody></table></div>
+
+<hr>
+<h3 id="liễu-chính-quan-tam-tà-quan">Liễu Chính Quan, Tam Tà Quan</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th><img loading="lazy" alt="" src="../assets/img/YvMIWqIf3Piz4BYDG8Vt_image.jpg"></th>
+<th style="text-align: center;"><p>Hỏa Tặc Đầu Lĩnh<br><mark style="color:var(--gb-success);"><strong>Liễu Chính Quan</strong></mark></p></th>
+<th><img loading="lazy" alt="" src="../assets/img/yApjyd0I1f0KGLnpDtPE_image.png"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img loading="lazy" alt="" src="../assets/img/XF2c2QEi5EI5v3rVaU8Q_image.jpg"></td>
+<td style="text-align: center;"><p>Tặc Trại Trại Chủ<br><mark style="color:var(--gb-success);"><strong>Tam Tà Quan</strong></mark></p></td>
+<td><img loading="lazy" alt="" src="../assets/img/DZwkdNuyAQjH3ZNvxHIO_image.png"></td>
+</tr>
+</tbody>
+</table></div>
+<div class="table-wrap"><table><thead><tr><th width="173.99993896484375" align="center">Hình ảnh</th><th>Vật phẩm rơi</th></tr></thead><tbody><tr><td align="center"><div><figure><img loading="lazy" src="../assets/img/0R6Lzl25TcnogDErP983_4.png" alt=""><figcaption></figcaption></figure></div></td><td>Kỳ Thiên Nhĩ Hoàn</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/oZ9TrlPzUpJLkPGO34gk_5.png" alt=""></td><td>Phượng Hoàng Nhĩ Hoàn</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/oAG1wO2pcLinfefFXjFs_6.png" alt=""></td><td>Thiên Đường Nhĩ Hoàn</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/epG2aTs4Wc0o0v6pVL8F_100003.png" alt=""></td><td>Ngọc Ảnh Liên</td></tr><tr><td align="center"><div><figure><img loading="lazy" src="../assets/img/knXCmsxsAmn8Kf0adZIH_100004.png" alt=""><figcaption></figcaption></figure></div></td><td>Ngũ Độc Liên</td></tr><tr><td align="center"><div><figure><img loading="lazy" src="../assets/img/76QUY4H8kz3boxOchG0C_100005.png" alt=""><figcaption></figcaption></figure></div></td><td>Hổ Phách Liên</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/Jtmhx47zFW9IUTGvwM5j_100006.png" alt=""></td><td>Kim Cang Liên</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/ScA9wks9pdg09Vqw2Dmi_700005.png" alt=""></td><td>Địa Tâm Giới Chỉ</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/y2wpbRGUnVrk4z8CInHU_700006.png" alt=""></td><td>Vạn Thọ Giới Chỉ</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/fA43BlC5ICVM4Ssb8dbz_100201017.png" alt=""></td><td>Bạch Nguyệt Đao</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/akI8zJQPR2f9TA4s8mxC_100202018.png" alt=""></td><td>Bách Hồn Đao</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/9fo8XFoXCAjyuCSMiK1i_200201017.png" alt=""></td><td>Lôi Điện Kiếm</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/uMnNotYq84iYlYfMejBB_200202018.png" alt=""></td><td>Đoạn Thiên Kiếm</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/KRYVDPaFbVS1r0G6UBKs_300201017.png" alt=""></td><td>Cửu Long Thương</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/v3Wyd6qRORglB2zJ1GQT_300202018.png" alt=""></td><td>Thiên Phạt Thương</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/mSKsuqbuoGn6DHBUOX3b_400201017.png" alt=""></td><td>Thần Tý Cung</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/4X3Ps5jNR83KIaugNTSf_400202018.png" alt=""></td><td>Ma Âm Cung</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/Ro7hpaLLlsctZBOmKf4d_500201017.png" alt=""></td><td>A Tu La Trượng</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/Y8QTbDMn54c1G1QEJO7j_500202018.png" alt=""></td><td>Hắc Xà Trượng</td></tr><tr><td align="center">?????</td><td>Trang bị cấp 40–50: áo, hộ thủ, giày, giáp</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/rOC7wO4Z6T8hYQcRaZYJ_800000013.png" alt="" data-size="original"></td><td>Đá Yulgang</td></tr><tr><td align="center"><div><figure><img loading="lazy" src="../assets/img/Jo2q9lTI1EZbwnrG770o_image.png" alt=""><figcaption></figcaption></figure></div></td><td>Kim Cương Thạch</td></tr><tr><td align="center"><div><figure><img loading="lazy" src="../assets/img/TR1SfWs5Fw18k5ho3Lo7_image.png" alt=""><figcaption></figcaption></figure></div></td><td>Hàn Ngọc Thạch</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/qGq9YIhSgOvxjmAc6KaU_800000006.png" alt=""></td><td>Đá Cường Hóa</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/ZHMHIePqCUoBNficzKfX_1008000023.png" alt=""></td><td>Kim Cương Phù</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/UrgI3hlcfunHHi7T3Hou_1008000024.png" alt=""></td><td>Hàn Ngọc Phù</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/8hRQLXdgd0iqYyeXR5uj_1008000025.png" alt=""></td><td>Bảo Hộ Phù</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/G2HzkiTa8isjhwvykyv3_1008000136.png" alt=""></td><td>Phúc Vận Phù 25%</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/dxzdIIANQGh8hhYIw2RD_1000000001.png" alt=""></td><td>Event Box</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/PkdWcvNg5SJUnHlvfX1p_1000000002.png" alt=""></td><td>Rương Bạch Ngân</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/Xxsuera6zYlMuXc0rrNo_1000000008.png" alt=""></td><td>Rương Ngọc</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/ee1pGZHxHNJ2AbYoIO6F_1000000026.png" alt=""></td><td>Rương Đá</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/FmCOSk04Mvtek4aKIXM0_1000000027.png" alt=""></td><td>Rương Thần Tiên</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/zeTGOfQ9jk9kjdS3NmR2_900102.png" alt=""></td><td>Áo choàng Bang hội cấp 4</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/M3aj5uckRzcksIqPVGpC_900103.png" alt=""></td><td>Áo choàng Bang hội cấp 5</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/UNQe2nf2VEfjmO3pklgN_900104.png" alt=""></td><td>Áo choàng Bang hội cấp 6</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/LEN7I3yHqypq2LTslZnj_9000120.png" alt=""></td><td>Kinh nghiệm x1.2</td></tr><tr><td align="center"><div><figure><img loading="lazy" src="../assets/img/eYwGLg3KenIo5piv5IQQ_1000000290.png" alt=""><figcaption></figcaption></figure></div></td><td>Huy Hiệu Hiệp Khách</td></tr></tbody></table></div>
+
+<hr>
+<h3 id="thần-võ-môn-liễu-thiện-phủ">Thần Võ Môn, Liễu Thiện Phủ</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th><img loading="lazy" alt="" src="../assets/img/KClhIGF9sArWPzfunDXL_image.png"></th>
+<th style="text-align: center;"><p>Thị Huyết Đao<br><mark style="color:var(--gb-success);"><strong>Vô Thiên Các tầng 2</strong></mark><br><mark style="color:var(--gb-danger);">(không công bố tọa độ)</mark></p></th>
+<th><img loading="lazy" alt="" src="../assets/img/uZnk1ULdNnCNIJv6FTFJ_image.png"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img loading="lazy" alt="" src="../assets/img/oxjyikQcRKes2dWo5aRs_image.png"></td>
+<td style="text-align: center;"><p>Kim Độc Đao<br><mark style="color:var(--gb-success);"><strong>Trường Thọ Lâu tầng 3</strong></mark><br><mark style="color:var(--gb-danger);">(không công bố tọa độ)</mark></p></td>
+<td><img loading="lazy" alt="" src="../assets/img/NVDtKrRQGvgqHqob7p4i_image.png"></td>
+</tr>
+</tbody>
+</table></div>
+<div class="table-wrap"><table><thead><tr><th width="173.99993896484375" align="center">Hình ảnh</th><th>Vật phẩm rơi</th></tr></thead><tbody><tr><td align="center"><img loading="lazy" src="../assets/img/QkJQVvjU5YUhqldQRgsk_7.png" alt=""></td><td>Thần Nhĩ Hoàn</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/A8Cnlz47ZIPFIDNp6IZT_8.png" alt=""></td><td>Khô Lâu Nhĩ Hoàn</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/8XHVyuPd4q7Gx6gluVj6_100009.png" alt=""></td><td>Tinh Quang Liên</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/k5yJz4AqppKx4Arj7Bbo_100010.png" alt=""></td><td>Thiên Thần Liên</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/2fmNoiISIv7veUfreCsq_100011.png" alt=""></td><td>Ma Liên</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/9SKewTNu5XZ7n68Hirar_700010.png" alt=""></td><td>Ma Nhãn Giới Chỉ</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/E7vQolyaMcqXA8oWeFCl_700011.png" alt=""></td><td>Phá Thế Giới Chỉ</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/LYr6SoINnVC9iChZbLxR_700012.png" alt=""></td><td>Bàn Long Giới Chỉ</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/fESuG7RtJmY9LBP4A61v_700013.png" alt=""></td><td>Thái Cực Giới Chỉ</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/hctqlMAFN46ozUqTLdhn_100201023.png" alt=""></td><td>Phổ Thiên Đao</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/ZWFHpj4A5R1Yvz4fW8t7_100202024.png" alt=""></td><td>Diêm Vương Đao</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/z320x35zrlHPCV935oFR_200201023.png" alt=""></td><td>Thiên Địa Kiếm</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/hzP3ti8JB9OKl1FKZ6SC_200202024.png" alt=""></td><td>Phong Nhật Kiếm</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/Y3F0bVlKrezqtAXByIDD_300201023.png" alt=""></td><td>Long Phá Quân Thương</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/0ePKw8tA2qXEZsUlUL6d_300202024.png" alt=""></td><td>Chinh Ngục Thương</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/QAowyZLwvWzs2UUbMGd3_400201023.png" alt=""></td><td>Cửu Thiên Thần Cung</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/apioRJHuBMfkw4Nkqfw6_400202024.png" alt=""></td><td>Ma Hồn Cung</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/o8KHzgJ26Fo3WmIaEM7R_500201023.png" alt=""></td><td>Thần Trí Trượng</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/xRPftqjdKU61wmfT5IKX_500202024.png" alt=""></td><td>Thôn Thiên Ma Trượng</td></tr><tr><td align="center">?????</td><td>Trang bị cấp 60–70: áo, hộ thủ, giày, giáp</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/rOC7wO4Z6T8hYQcRaZYJ_800000013.png" alt="" data-size="original"></td><td>Đá Yulgang</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/iTDzTJIuVbOrYxCOiYn0_800000001.png" alt="" data-size="original"></td><td>Kim Cương Thạch</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/SjEvcTkFi9Unxr4mHWii_800000002.png" alt="" data-size="original"></td><td>Hàn Ngọc Thạch</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/qGq9YIhSgOvxjmAc6KaU_800000006.png" alt=""></td><td>Đá Cường Hóa</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/ZHMHIePqCUoBNficzKfX_1008000023.png" alt=""></td><td>Kim Cương Phù</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/UrgI3hlcfunHHi7T3Hou_1008000024.png" alt=""></td><td>Hàn Ngọc Phù</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/8hRQLXdgd0iqYyeXR5uj_1008000025.png" alt=""></td><td>Bảo Hộ Phù</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/G2HzkiTa8isjhwvykyv3_1008000136.png" alt=""></td><td>Phúc Vận Phù 25%</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/dxzdIIANQGh8hhYIw2RD_1000000001.png" alt=""></td><td>Event Box</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/PkdWcvNg5SJUnHlvfX1p_1000000002.png" alt=""></td><td>Rương Bạch Ngân</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/Xxsuera6zYlMuXc0rrNo_1000000008.png" alt=""></td><td>Rương Ngọc</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/ee1pGZHxHNJ2AbYoIO6F_1000000026.png" alt=""></td><td>Rương Đá</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/FmCOSk04Mvtek4aKIXM0_1000000027.png" alt=""></td><td>Rương Thần Tiên</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/zeTGOfQ9jk9kjdS3NmR2_900102.png" alt=""></td><td>Áo choàng Bang hội cấp 4</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/M3aj5uckRzcksIqPVGpC_900103.png" alt=""></td><td>Áo choàng Bang hội cấp 5</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/UNQe2nf2VEfjmO3pklgN_900104.png" alt=""></td><td>Áo choàng Bang hội cấp 6</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/LEN7I3yHqypq2LTslZnj_9000120.png" alt=""></td><td>Kinh nghiệm x1.2</td></tr><tr><td align="center"><div><figure><img loading="lazy" src="../assets/img/eYwGLg3KenIo5piv5IQQ_1000000290.png" alt=""><figcaption></figcaption></figure></div></td><td>Huy Hiệu Hiệp Khách</td></tr></tbody></table></div>
+
+<hr>
+<h3 id="bách-võ-quan-nguyệt-quang-cốc">Bách Võ Quan, Nguyệt Quang Cốc</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th><img loading="lazy" alt="" src="../assets/img/qTnK7hdD7DGpuY05yuNb_image.png"></th>
+<th style="text-align: center;"><p>Địa Tâm Ma Vương<br><mark style="color:var(--gb-success);"><strong>Bách Võ Quan</strong></mark></p></th>
+<th><img loading="lazy" alt="" src="../assets/img/XhNUHQG5xefMGXO4nU2M_image.png"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img loading="lazy" alt="" src="../assets/img/NQcV3nJ5ClWl5ACvOoQu_image.png"></td>
+<td style="text-align: center;"><p>Huyết Ma Ám Thần<br><mark style="color:var(--gb-success);"><strong>Nguyệt Quang Cốc</strong></mark></p></td>
+<td><img loading="lazy" alt="" src="../assets/img/fJauUqI7pL7tYheZ5Gpn_image.png"></td>
+</tr>
+</tbody>
+</table></div>
+<div class="table-wrap"><table><thead><tr><th width="173.99993896484375" align="center">Hình ảnh</th><th>Vật phẩm rơi</th></tr></thead><tbody><tr><td align="center"><img loading="lazy" src="../assets/img/C1EZ3n4snC3iuQM566A6_9.png" alt=""></td><td>Cửu Thiên Nhĩ Hoàn</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/zEgGLAKuwjjSbfclsdvu_10.png" alt=""></td><td>Hoàng Ngọc Nhĩ Hoàn</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/Z73tnS5mMz74CrPiitk2_11.png" alt=""></td><td>Hồng Ngọc Nhĩ Hoàn</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/bss0rKxbfn7xQJmYP8VA_100012.png" alt=""></td><td>Linh Hồn Liên</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/SAHcFZMicWCUZ3q9gFYk_100013.png" alt=""></td><td>Tôn Sùng Liên</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/nulpQ7bE336du55ovyKV_100014.png" alt=""></td><td>Hắc Ám Liên</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/gOXefPPzzIV6iGCH1uJ2_100015.png" alt=""></td><td>Hắc Ngọc Liên</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/oEWidvxjQyADjGwcNkv0_700014.png" alt=""></td><td>Võ Lực Giới Chỉ</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/GJ3C3qO4o5RBc0ZYiRsT_700015.png" alt=""></td><td>Thống Soái Giới Chỉ</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/N4lvHAUxwvMgYT5RjXFl_700016.png" alt=""></td><td>Ám Dũng Giới Chỉ</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/r6lwjo4udqj8F2JqG7Q7_700017.png" alt=""></td><td>Bá Lực Giới Chỉ</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/4aap5ibsPzixCwhgv3Hz_100201029.png" alt=""></td><td>Tử Kim Bàn Long Đao</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/2vI9QZAlkkmMW5s5VUxK_100202030.png" alt=""></td><td>Kim Cang Phá Thiên Sát</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/v99AV9FdeMp1SHGhlwMj_200201029.png" alt=""></td><td>Thống Soái Kiếm</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/WqOSpof1ywCtAC0n70e2_200202030.png" alt=""></td><td>Tôn Thiên Kiếm</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/jrTcsSWdv7Zp1QCssNi1_300201029.png" alt=""></td><td>Thiên Thần Thương</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/UhGXJvX5qLfGI3YHpp3k_300202030.png" alt=""></td><td>Thiên Ma Thần Thương</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/8lOiCoc6kty20a18IaPG_400201029.png" alt=""></td><td>Thần Uy Cung</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/NFvCReke6ec2HMPT77UM_400202030.png" alt=""></td><td>Ma Chinh Thần Cung</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/Ppwx9fafFUbK7OtyrfNE_500201029.png" alt=""></td><td>Tinh Thần Trượng</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/8Fq7W4AWTo4rnCPLmbqo_500202030.png" alt=""></td><td>Bá Kiếp Trượng</td></tr><tr><td align="center">?????</td><td>Trang bị cấp 80–90: áo, hộ thủ, giày, giáp</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/rOC7wO4Z6T8hYQcRaZYJ_800000013.png" alt="" data-size="original"></td><td>Đá Yulgang</td></tr><tr><td align="center"><div><figure><img loading="lazy" src="../assets/img/MWkKFbHdU5pEr8WtGvuS_800000023.png" alt=""><figcaption></figcaption></figure></div></td><td>Kim Cương Thạch Cao Cấp</td></tr><tr><td align="center"><div><figure><img loading="lazy" src="../assets/img/hVrMYhBxowVBDNTY8kGP_800000024.png" alt=""><figcaption></figcaption></figure></div></td><td>Hàn Ngọc Thạch Cao Cấp</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/qGq9YIhSgOvxjmAc6KaU_800000006.png" alt=""></td><td>Đá Cường Hóa</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/ZHMHIePqCUoBNficzKfX_1008000023.png" alt=""></td><td>Kim Cương Phù</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/UrgI3hlcfunHHi7T3Hou_1008000024.png" alt=""></td><td>Hàn Ngọc Phù</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/8hRQLXdgd0iqYyeXR5uj_1008000025.png" alt=""></td><td>Bảo Hộ Phù</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/G2HzkiTa8isjhwvykyv3_1008000136.png" alt=""></td><td>Phúc Vận Phù 25%</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/dxzdIIANQGh8hhYIw2RD_1000000001.png" alt=""></td><td>Event Box</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/PkdWcvNg5SJUnHlvfX1p_1000000002.png" alt=""></td><td>Rương Bạch Ngân</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/Xxsuera6zYlMuXc0rrNo_1000000008.png" alt=""></td><td>Rương Ngọc</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/ee1pGZHxHNJ2AbYoIO6F_1000000026.png" alt=""></td><td>Rương Đá</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/FmCOSk04Mvtek4aKIXM0_1000000027.png" alt=""></td><td>Rương Thần Tiên</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/zeTGOfQ9jk9kjdS3NmR2_900102.png" alt=""></td><td>Áo choàng Bang hội cấp 4</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/M3aj5uckRzcksIqPVGpC_900103.png" alt=""></td><td>Áo choàng Bang hội cấp 5</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/UNQe2nf2VEfjmO3pklgN_900104.png" alt=""></td><td>Áo choàng Bang hội cấp 6</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/LEN7I3yHqypq2LTslZnj_9000120.png" alt=""></td><td>Kinh nghiệm x1.2</td></tr><tr><td align="center"><div><figure><img loading="lazy" src="../assets/img/eYwGLg3KenIo5piv5IQQ_1000000290.png" alt=""><figcaption></figcaption></figure></div></td><td>Huy Hiệu Hiệp Khách</td></tr></tbody></table></div></article>
+    <div class="pager"><a class="prev" href="../boss/boss-the-gioi.html"><small>← Trang trước</small>World Boss (Boss thế giới)</a><a class="next" href="../boss/dao-chi.html"><small>Trang sau →</small>Item Boss (Đào Chi)</a></div>
+    <footer>Bản dịch tiếng Việt từ wiki Guide Rebuild (wiki-rebuild.edensoft.net). Hình ảnh thuộc về đội ngũ Yulgang Rebuild.</footer>
+  </main>
+</div>
+<div id="lightbox" hidden onclick="this.hidden=true"><img alt=""></div>
+<script>window.SITE_PREFIX = "../";</script>
+<script src="../assets/search-index.js"></script>
+<script src="../assets/app.js"></script>
+</body>
+</html>

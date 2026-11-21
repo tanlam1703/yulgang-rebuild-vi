@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pet (Linh thú) · Yulgang Rebuild – Cẩm nang tiếng Việt</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <button class="menu-btn" aria-label="Mở menu" onclick="document.body.classList.toggle('nav-open')">☰</button>
+  <a class="brand" href="../index.html"><span class="logo">熱血</span><span>Yulgang Rebuild <small>Cẩm nang tiếng Việt</small></span></a>
+  <div class="search">
+    <input id="q" type="search" placeholder="Tìm kiếm… (vd: Đao Kiếm Tiếu, Phúc Vận Phù)" autocomplete="off">
+    <div id="results" class="results" hidden></div>
+  </div>
+</header>
+<div class="layout">
+  <nav class="sidebar"><ul>
+<li class=""><a href="../index.html">Giới thiệu</a></li>
+<li class=""><a href="../bang-thuat-ngu.html">Bảng thuật ngữ</a></li>
+</ul>
+<div class="nav-group">Rebuild: Thông tin</div>
+<ul>
+<li class=""><a href="../thong-tin/thong-tin-may-chu.html">Thông tin máy chủ</a></li>
+<li class=""><a href="../thong-tin/su-kien-loy-krathong.html">Sự kiện Loy Krathong</a></li>
+<li class=""><a href="../thong-tin/su-kien-halloween.html">Halloween Patch</a></li>
+</ul>
+<div class="nav-group">Rebuild: Hướng dẫn chơi</div>
+<ul>
+<li class=""><a href="../huong-dan-choi/ban-do.html">Bản đồ (vị trí)</a></li>
+<li class=""><a href="../huong-dan-choi/trang-bi/index.html">Equipment (Trang bị)</a></li>
+<li class="sub"><a href="../huong-dan-choi/trang-bi/dao-khach.html">Blade (Đao Khách)</a></li>
+<li class="sub"><a href="../huong-dan-choi/trang-bi/kiem-khach.html">Sword (Kiếm Khách)</a></li>
+<li class="sub"><a href="../huong-dan-choi/trang-bi/thuong-khach.html">Spear (Thương Khách)</a></li>
+<li class="sub"><a href="../huong-dan-choi/trang-bi/cung-thu.html">Archer (Cung Thủ)</a></li>
+<li class="sub"><a href="../huong-dan-choi/trang-bi/dai-phu.html">Healer (Đại Phu)</a></li>
+<li class=""><a href="../huong-dan-choi/khi-cong.html">Khí công theo nghề</a></li>
+<li class=""><a href="../huong-dan-choi/trang-suc.html">Accessories (Trang sức)</a></li>
+<li class=""><a href="../huong-dan-choi/cuong-hoa.html">Enchant (Cường hóa, hợp thành)</a></li>
+<li class=""><a href="../huong-dan-choi/thoi-trang.html">Fashion (Áo choàng thời trang)</a></li>
+<li class="active"><a href="../huong-dan-choi/linh-thu.html">Pet (Linh thú)</a></li>
+<li class=""><a href="../huong-dan-choi/da.html">Stone (Đá)</a></li>
+<li class=""><a href="../huong-dan-choi/bang-hoi.html">Hệ thống Bang hội</a></li>
+<li class=""><a href="../huong-dan-choi/diem-thien.html">Aura (Điểm Thiện)</a></li>
+</ul>
+<div class="nav-group">Rebuild: Hệ thống Boss</div>
+<ul>
+<li class=""><a href="../boss/boss-the-gioi.html">World Boss (Boss thế giới)</a></li>
+<li class=""><a href="../boss/boss-ban-do.html">Map Boss (Boss bản đồ)</a></li>
+<li class=""><a href="../boss/dao-chi.html">Item Boss (Đào Chi)</a></li>
+</ul>
+<div class="nav-group">Nhiệm vụ thăng chức</div>
+<ul>
+<li class=""><a href="../nhiem-vu-thang-chuc/cap-10-thang-chuc-lan-1.html">[10] Bước đầu chinh chiến</a></li>
+<li class=""><a href="../nhiem-vu-thang-chuc/cap-35-chinh-phai.html">[35] Gia nhập Chính phái</a></li>
+<li class=""><a href="../nhiem-vu-thang-chuc/cap-35-ta-phai.html">[35] Gia nhập Tà phái</a></li>
+<li class=""><a href="../nhiem-vu-thang-chuc/cap-60-chinh-phai.html">[60] Thăng chức lần 3 – Chính phái</a></li>
+<li class=""><a href="../nhiem-vu-thang-chuc/cap-60-ta-phai.html">[60] Thăng chức lần 3 – Tà phái</a></li>
+<li class=""><a href="../nhiem-vu-thang-chuc/cap-80-chinh-phai.html">[80] Thăng chức lần 4 – Chính phái</a></li>
+<li class=""><a href="../nhiem-vu-thang-chuc/cap-80-ta-phai.html">[80] Thăng chức lần 4 – Tà phái</a></li>
+<li class=""><a href="../nhiem-vu-thang-chuc/cap-100.html">[100] Thăng chức lần 5</a></li>
+</ul>
+<div class="nav-group">Rebuild: Rương báu</div>
+<ul>
+<li class=""><a href="../ruong-bau/event-box.html">Event Box</a></li>
+<li class=""><a href="../ruong-bau/ruong-bach-ngan.html">Rương Bạch Ngân</a></li>
+<li class=""><a href="../ruong-bau/ruong-da.html">Rương Đá</a></li>
+<li class=""><a href="../ruong-bau/ruong-ngoc.html">Rương Ngọc</a></li>
+<li class=""><a href="../ruong-bau/ruong-hoang-kim.html">Rương Hoàng Kim</a></li>
+<li class=""><a href="../ruong-bau/ruong-cham-khac.html">Rương Chạm Khắc</a></li>
+<li class=""><a href="../ruong-bau/ruong-bang.html">Rương Băng</a></li>
+<li class=""><a href="../ruong-bau/ruong-hac-am.html">Rương Hắc Ám</a></li>
+</ul>
+<div class="nav-group">Rebuild: Chiến tranh</div>
+<ul>
+<li class=""><a href="../chien-tranh/chinh-ta.html">Chiến tranh Chính – Tà</a></li>
+</ul>
+<div class="nav-group">Rebuild: Hỗ trợ</div>
+<ul>
+<li class=""><a href="../cach-choi/index.html">How to Play (Cách vào game)</a></li>
+<li class="sub"><a href="../cach-choi/ios-mac.html">iOS, Mac</a></li>
+<li class="sub"><a href="../cach-choi/android.html">Android</a></li>
+<li class="sub"><a href="../cach-choi/pc-browser.html">PC, Browser</a></li>
+<li class=""><a href="../cach-choi/bot.html">Bot System (Hộp Bot)</a></li>
+</ul></nav>
+  <div class="scrim" onclick="document.body.classList.remove('nav-open')"></div>
+  <main class="content">
+    <article><h1 id="pet-linh-thú">Pet (Linh thú)</h1>
+<p>Chi tiết linh thú</p>
+<p>Người chơi có thể mua linh thú ở Item Shop, nhận từ sự kiện hoặc do boss rơi. Linh thú không có sẵn dòng thuộc tính — người chơi phải tự dùng Thần Tiên Thạch Cao Cấp để hợp thành chỉ số.</p>
+<p><mark style="color:violet;">Linh thú có 2 loại</mark> <br>
+1. Linh thú thường: tự tạo dòng thuộc tính bằng <img loading="lazy" alt="" src="../assets/img/LenkHPTyS8hIntLZi5vc_800000031.png"> Thần Tiên Đan Cao Cấp <img loading="lazy" alt="" src="../assets/img/pBrhvw0xZlcWtDOqCeQJ_800000030.png"> Thần Tiên Đan<br>
+2. Linh thú (EXP): nhận từ quay gacha, có sẵn dòng tăng kinh nghiệm</p>
+<h4 id="danh-sách-linh-thú-mỗi-cấp-linh-thú-có-chỉ-số-khác-nhau"><mark style="color:blue;">Danh sách linh thú — mỗi cấp linh thú có chỉ số khác nhau</mark></h4>
+<div class="table-wrap"><table><thead><tr><th width="120" align="center">Hình ảnh</th><th align="center">Tên vật phẩm</th></tr></thead><tbody><tr><td align="center"><img loading="lazy" src="../assets/img/z8aaIsKlq2nKE4DaD3HK_1000000065.png" alt="" data-size="original"></td><td align="center">Triệu Hồi Phù (Chuột)</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/bVyx2GK77a2JzeZpN9zC_1000000066.png" alt="" data-size="original"></td><td align="center">Triệu Hồi Phù (Ưng)</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/n0inv6fHwVSSWkM25GlV_1000000067.png" alt="" data-size="original"></td><td align="center">Triệu Hồi Phù (Hổ)</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/69EZsFws3DmMZUbmS8le_1000000068.png" alt="" data-size="original"></td><td align="center">Triệu Hồi Phù (Báo)</td></tr></tbody></table></div>
+
+<h4 id="trang-sức-linh-thú"><mark style="color:blue;">Trang sức linh thú</mark></h4>
+<p>Trang bị vào sẽ tăng chỉ số cho linh thú</p>
+<div class="table-wrap"><table data-search="false"><thead><tr><th width="120" align="center">Hình ảnh</th><th align="center">Tên vật phẩm</th><th align="center">Chỉ số</th></tr></thead><tbody><tr><td align="center"><img loading="lazy" src="../assets/img/62ifNYivvkFSshVr4qQa_605000101.png" alt="" data-size="original"></td><td align="center">Ngọc Linh Hoàn</td><td align="center">Chính xác 1 , Né tránh 1</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/8cxeWxOWjrqaBq2X9d31_605000103.png" alt="" data-size="original"></td><td align="center">Nguyên Tố Linh Hoàn</td><td align="center">Né tránh 5</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/2NaUJHid0HnLoFahy4EI_605000104.png" alt="" data-size="original"></td><td align="center">Tuyệt Phẩm Linh Hoàn</td><td align="center">Chính xác 5</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/FJSpI6LvZkJXdBl0Q3RF_605000201.png" alt="" data-size="original"></td><td align="center">Phượng Linh Hoàn</td><td align="center">Tấn công 2 , Phòng thủ 1</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/bqZRmiRfrr6dgCuDR9G2_605000202.png" alt="" data-size="original"></td><td align="center">Trụ Thiên Linh Hoàn</td><td align="center">Sinh lực 50</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/nApEVYPgvjuT5qUhsvI0_605000203.png" alt="" data-size="original"></td><td align="center">Phú Quý Linh Hoàn</td><td align="center">Né tránh 8</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/bEUeIE1bzhp0mIQu3ypd_605000204.png" alt="" data-size="original"></td><td align="center">Mỹ Lệ Linh Hoàn</td><td align="center">Chính xác 8</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/bIjxowRpuFXy96Ldi6rZ_605000301.png" alt="" data-size="original"></td><td align="center">Thần Linh Hoàn</td><td align="center">Tấn công 4 , Phòng thủ 2</td></tr><tr><td align="center"><img loading="lazy" src="../assets/img/LeIqLG0AMw5JRkwJJcZk_605000302.png" alt="" data-size="original"></td><td align="center">Quang Linh Hoàn</td><td align="center">Sinh lực 80</td></tr></tbody></table></div>
+
+<hr>
+<h4 id="người-chơi-có-thể-mua-thức-ăn-và-trang-bị-linh-thú-tại-npc-t">Người chơi có thể mua thức ăn và trang bị linh thú tại NPC trong thành</h4>
+<figure><img loading="lazy" src="../assets/img/09prlWiEFv9DI3NSMAIk_image.png" alt=""><figcaption><p>Tô Dương (Huyền Bột Phái)</p></figcaption></figure>
+
+<p>Thần Tiên Thạch <img loading="lazy" alt="" src="../assets/img/A5iqoKSTjL8pprsD5m9P_800000032.png"> Dùng để hợp thành trang bị linh thú (trừ trang sức linh thú)<br></p>
+<hr>
+<p><img loading="lazy" alt="" src="../assets/img/pBrhvw0xZlcWtDOqCeQJ_800000030.png"> <mark style="color:var(--gb-success);">Thần Tiên Đan</mark> : Hợp thành chỉ số linh thú</p>
+<div class="table-wrap"><table data-search="false"><thead><tr><th width="91">Hình</th><th align="center">Thần Tiên Đan</th><th align="center">Dòng thuộc tính linh thú Class 1–3</th></tr></thead><tbody><tr><td><img loading="lazy" src="../assets/img/nxSCye2oxcZ7MITWtAWh_image.png" alt="" data-size="original"></td><td align="center">Tấn công</td><td align="center">5-15</td></tr><tr><td><img loading="lazy" src="../assets/img/xAAVJtlUoIw5zofVWGgy_image.png" alt="" data-size="original"></td><td align="center">Phòng thủ</td><td align="center">5-15</td></tr><tr><td><img loading="lazy" src="../assets/img/NTQeNZ4iNjX6xhk3cbk7_image.png" alt="" data-size="original"></td><td align="center">Sinh lực</td><td align="center">1, 6</td></tr><tr><td><img loading="lazy" src="../assets/img/1UXVtKMYfyYyUxfB7Cbt_image.png" alt="" data-size="original"></td><td align="center">Nội lực</td><td align="center">1, 6</td></tr><tr><td><img loading="lazy" src="../assets/img/Z5Znqd7OeGaewtnk8nAh_image.png" alt="" data-size="original"></td><td align="center">Chính xác</td><td align="center">1-10</td></tr><tr><td><img loading="lazy" src="../assets/img/XkK9UHVvxkbZunI9J6sb_image.png" alt="" data-size="original"></td><td align="center">Né tránh</td><td align="center">1-10</td></tr><tr><td><img loading="lazy" src="../assets/img/FmiEHWYQPrhNFrqJcRpE_image.png" alt="" data-size="original"></td><td align="center">Tấn công võ công</td><td align="center">15-25</td></tr><tr><td><img loading="lazy" src="../assets/img/Y2Am35vSSx2dL9z1JVxs_image.png" alt="" data-size="original"></td><td align="center">Tăng uy lực chí mạng</td><td align="center">10-20</td></tr><tr><td><img loading="lazy" src="../assets/img/61QPmk3beD5iKtjiF7bL_image.png" alt="" data-size="original"></td><td align="center">Kinh nghiệm</td><td align="center">1-3 %</td></tr></tbody></table></div>
+
+<p><img loading="lazy" alt="" src="../assets/img/LenkHPTyS8hIntLZi5vc_800000031.png"> <mark style="color:var(--gb-success);">Thần Tiên Đan Cao Cấp</mark> : Hợp thành chỉ số linh thú</p>
+<div class="table-wrap"><table data-search="false"><thead><tr><th width="101">Hình</th><th align="center">Thần Tiên Đan Cao Cấp</th><th align="center">Linh thú Class 3</th></tr></thead><tbody><tr><td><img loading="lazy" src="../assets/img/i8DVdBfuq9nn9T7fcwPo_image.png" alt="" data-size="original"></td><td align="center">Tấn công</td><td align="center">10-20</td></tr><tr><td><img loading="lazy" src="../assets/img/pbSDvQQbkTEKB7XGsplq_image.png" alt="" data-size="original"></td><td align="center">Phòng thủ</td><td align="center">10-20</td></tr><tr><td><img loading="lazy" src="../assets/img/6L5wPkpRdQ6ZvndAwwxj_image.png" alt="" data-size="original"></td><td align="center">Sinh lực</td><td align="center">6, 11</td></tr><tr><td><img loading="lazy" src="../assets/img/cUftIt4E7j7jjDzTPKlu_image.png" alt="" data-size="original"></td><td align="center">Nội lực</td><td align="center">6, 11</td></tr><tr><td><img loading="lazy" src="../assets/img/P46KzrIAvGOvW3VRGeTU_image.png" alt="" data-size="original"></td><td align="center">Chính xác</td><td align="center">5-15</td></tr><tr><td><img loading="lazy" src="../assets/img/nBnr2haMX9uJOr3Gbtcp_image.png" alt="" data-size="original"></td><td align="center">Né tránh</td><td align="center">5-15</td></tr><tr><td><img loading="lazy" src="../assets/img/QxrVOZXs1EbyEU51scui_image.png" alt="" data-size="original"></td><td align="center">Tấn công võ công</td><td align="center">15-30</td></tr><tr><td><img loading="lazy" src="../assets/img/40W38RLi2f2jrU3D0Cam_image.png" alt="" data-size="original"></td><td align="center">Tăng uy lực chí mạng</td><td align="center">12-25</td></tr><tr><td><img loading="lazy" src="../assets/img/nuKpqTBMQnLRvmTUE1n1_image.png" alt="" data-size="original"></td><td align="center">Kinh nghiệm</td><td align="center">2-5 %</td></tr></tbody></table></div>
+
+<p><img loading="lazy" alt="" src="../assets/img/A5iqoKSTjL8pprsD5m9P_800000032.png"> <mark style="color:var(--gb-success);">Thần Tiên Thạch</mark> : Hợp thành chỉ số trang bị linh thú</p>
+<div class="table-wrap"><table data-search="false"><thead><tr><th width="106">Hình</th><th align="center">Thần Tiên Thạch</th><th align="center">Linh thú Class 1–3</th></tr></thead><tbody><tr><td><img loading="lazy" src="../assets/img/NXGLUXPCk7j3Z4qNRbiH_image.png" alt="" data-size="original"></td><td align="center">Tấn công</td><td align="center">1-15</td></tr><tr><td><img loading="lazy" src="../assets/img/XMXfREPMTaiDX3A1VpYd_image.png" alt="" data-size="original"></td><td align="center">Phòng thủ</td><td align="center">1-8</td></tr><tr><td><img loading="lazy" src="../assets/img/0MW1dMhuC0SDjw2sB0P3_image.png" alt="" data-size="original"></td><td align="center">Sinh lực</td><td align="center">1, 10</td></tr><tr><td><img loading="lazy" src="../assets/img/yK5aHdzhlXR7gFU6PLeQ_image.png" alt="" data-size="original"></td><td align="center">Nội lực</td><td align="center">1, 10</td></tr><tr><td><img loading="lazy" src="../assets/img/t1iImHL0PObSysObCUz2_image.png" alt="" data-size="original"></td><td align="center">Chính xác</td><td align="center">1-10</td></tr><tr><td><img loading="lazy" src="../assets/img/HTRHgpakM5IeKhmcr5XF_image.png" alt="" data-size="original"></td><td align="center">Né tránh</td><td align="center">1-10</td></tr><tr><td><img loading="lazy" src="../assets/img/w9M7UTX5aAA14wBCbWNy_image.png" alt="" data-size="original"></td><td align="center">Tăng uy lực chí mạng</td><td align="center">1-20</td></tr></tbody></table></div>
+
+<p><img loading="lazy" alt="" src="../assets/img/yWapNEndMNI1V2GJvtQx_800000033.png"> <mark style="color:var(--gb-success);">Thần Tiên Thạch Cao Cấp</mark> : Hợp thành chỉ số trang bị linh thú</p>
+<div class="table-wrap"><table><thead><tr><th width="111">Hình</th><th align="center">Thần Tiên Thạch Cao Cấp</th><th align="center">Linh thú Class 3</th></tr></thead><tbody><tr><td><img loading="lazy" src="../assets/img/Z04QGZnTX6SBjrdy7c4E_image.png" alt="" data-size="original"></td><td align="center">Tấn công</td><td align="center">5-20</td></tr><tr><td><img loading="lazy" src="../assets/img/g5JvLIC9uwJSUNUDQkpo_image.png" alt="" data-size="original"></td><td align="center">Phòng thủ</td><td align="center">3-10</td></tr><tr><td><img loading="lazy" src="../assets/img/8fKEXCQpLhD8PhDBVxgp_image.png" alt="" data-size="original"></td><td align="center">Chính xác</td><td align="center">5-15</td></tr><tr><td><img loading="lazy" src="../assets/img/QdvD47ndeHD4sTEl2UfF_image.png" alt="" data-size="original"></td><td align="center">Né tránh</td><td align="center">5-15</td></tr><tr><td><img loading="lazy" src="../assets/img/eXFPSsLUgI9dMLZz1Lf8_image.png" alt="" data-size="original"></td><td align="center">Tăng uy lực chí mạng</td><td align="center">10-25</td></tr></tbody></table></div></article>
+    <div class="pager"><a class="prev" href="../huong-dan-choi/thoi-trang.html"><small>← Trang trước</small>Fashion (Áo choàng thời trang)</a><a class="next" href="../huong-dan-choi/da.html"><small>Trang sau →</small>Stone (Đá)</a></div>
+    <footer>Bản dịch tiếng Việt từ wiki Guide Rebuild (wiki-rebuild.edensoft.net). Hình ảnh thuộc về đội ngũ Yulgang Rebuild.</footer>
+  </main>
+</div>
+<div id="lightbox" hidden onclick="this.hidden=true"><img alt=""></div>
+<script>window.SITE_PREFIX = "../";</script>
+<script src="../assets/search-index.js"></script>
+<script src="../assets/app.js"></script>
+</body>
+</html>
